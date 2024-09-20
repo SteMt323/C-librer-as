@@ -1,0 +1,28 @@
+-----------LIBRERIAS DE C#-----------
+
+  	            ----System.Linq----
+
+--Concepto:
+
+	"Language Integrated Query", esta librería permite realizar
+    consultas sobre colecciones de datos 
+    (como arrays, listas o bases de datos) de manera declarativa y legible
+    Permite trabajar con datos de manera similar a las consultas de 
+    SQL, proporcionando un enfoque más sencillo y legible para manipular
+    datos.
+
+--Utilidad:
+    - Filtrado de datos: 
+        Filtrar elementos de una colección basandose en condiciones.
+
+    - Proyección de datos: 
+        Transformar o seleccionar ciertos campos de los elementos.
+
+    - Ordenamiento: 
+        Ordenar los elementos de una colección.
+
+    - Operaciones de agregado: 
+        Realizar operaciones como sumar, contar, etc.
+
+    - Unión y agrupamiento:
+        Unir colecciones y agrupar elementos, de manera similar a SQL.

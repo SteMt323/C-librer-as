@@ -1,0 +1,87 @@
+-----------LIBRERIAS DE C#-----------
+
+  	      ----System.Collections.Generic----
+
+--Concepto:
+
+	Esta librería proporciona funciones genéricas de colecciones,
+	las cuáles periten trabajar con estructuras de datos flexibles
+	y fuertemente tipadas sin la necesidad de realizar conversiones
+	de tipo manuales.
+
+--Utilidad:
+
+	Su utilidad e importancia se enfoca en que optimiza el rendimiento
+	y seguridad de tipos.
+
+--Funciones comunes:
+
+    -List<T>
+        --Concepto:
+            Es una lista dinámica que puede contener elementos de cualquier tipo,
+            permite redimensionar de manera automática, por lo que se evita el
+            trabajo de cambiar el tamaño de elementos que este puede contener.
+
+        --Utilidad:
+            Se utiliza cuando se necesita una lista dinámica donde se pueda
+            agregar, eliminar y acceder a los datos.
+
+        --Casos de uso:
+            - Cuando la cantidad de elementos no es fija.
+            - Cuando se necesite agregar o eliminar elemendos de forma dinámica
+            - Cuando el orden de los elementos es importante.
+
+    -Dictionary<TKey, TValue>
+        --Concepto:
+            Es un conjunto de pares clave-valor donde cada clave es única,
+            lo que permite buscar elementos de manera eficiente utilizando 
+            dicha clave. 
+
+        --Utilidad: 
+            Su utilidad recae cuando necesitas asociar valores con claves
+            únicas y relizar búsquedas rápidas.
+
+        --Casos de uso:
+            - Cuando necesitas acceder rápidamente a valores basados en claves únicas.
+            - Al manejar relaciones de datos.
+            
+
+    -Queue<T>
+        --Concepto:
+            Es una estructura de datos que sigue el principio de 
+            FIFO (First In, First Out), donde el primer elemento en entrar
+            es el primero en salir.
+
+        --Utilidad: 
+            Son útiles cuando necesitas procesar elementos en el orden
+            que fueron agregados.
+
+        --Casos de uso:
+            - Para modelar colas de atención (ejemplos: bancos o supermercados)
+            - Cuando se necesitan procesar tareas en orden secuencial.
+
+    -Stack<T>
+        --Concepto:
+            Es una estructura de datos que sigue el principio de 
+            LIFO (Last In, First Out), donde el último elemeto en entrar
+            es el primero en salir.
+
+        --Utilidad: 
+            Son útiles en escenarios donde se necesitan deshacer acciones o apilar
+            operaciones. 
+
+        --Casos de uso:
+            - Implementación de funcionalidades de deshacer.
+            - Algoritmos de evaluación de expresiones (ejemplos: balance de paréntesis).
+
+    -HashSet<T>
+        --Concepto:
+            Es una colección de elementos no ordenados que no permite duplicados.
+
+        --Utilidad: 
+            Es ideal para almacenar conjuntos de datos únicos donde no se requiere
+            un orden en específico.
+
+        --Casos de uso:
+            - Para mantener un conjunto de valores únicos.
+            - Cuando se necesitan evitar duplicados si importar el orden de los elementos.
